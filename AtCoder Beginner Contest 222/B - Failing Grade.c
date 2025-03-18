@@ -8,13 +8,19 @@
 
 int main()
 {
-    int a, b, c;
-    scanf("%d %d %d", &a, &b, &c);
+    int N, P, cnt = 0;
+    scanf("%d%d", &N, &P);
 
-    if (c >= a && c <= b)
-        printf("Yes\n");
-    else
-        printf("No\n");
+    for (int i = 0; i < N; i++)
+    {
+        int a;
+        scanf("%d", &a);
+
+        if (a < P)
+            cnt++;
+    }
+
+    printf("%d\n", cnt);
 
     return 0;
 }

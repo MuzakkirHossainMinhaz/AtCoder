@@ -8,13 +8,13 @@
 
 int main()
 {
-    int a, b, c;
-    scanf("%d %d %d", &a, &b, &c);
+    int A, B;
+    scanf("%d%d", &A, &B);
 
-    if (c >= a && c <= b)
-        printf("Yes\n");
+    if (A <= 2 * B)
+        printf("0\n");
     else
-        printf("No\n");
+        printf("%d\n", A - 2 * B);
 
     return 0;
 }

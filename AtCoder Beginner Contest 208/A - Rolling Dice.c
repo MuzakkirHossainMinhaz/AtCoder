@@ -8,10 +8,10 @@
 
 int main()
 {
-    int a, b, c;
-    scanf("%d %d %d", &a, &b, &c);
+    int A, B;
+    scanf("%d%d", &A, &B);
 
-    if (c >= a && c <= b)
+    if (A <= B && B <= 6 * A)
         printf("Yes\n");
     else
         printf("No\n");

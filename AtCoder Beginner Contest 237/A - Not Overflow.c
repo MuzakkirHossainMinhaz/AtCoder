@@ -5,16 +5,17 @@
 /****************************************************************/
 
 #include <stdio.h>
+#include <limits.h>
 
 int main()
 {
-    int a, b, c;
-    scanf("%d %d %d", &a, &b, &c);
+    long long int N, min = INT_MIN, max = INT_MAX;
+    scanf("%lld", &N);
 
-    if (c >= a && c <= b)
-        printf("Yes\n");
+    if (N < min || N > max)
+        printf("No \n");
     else
-        printf("No\n");
+        printf("Yes\n");
 
     return 0;
 }
