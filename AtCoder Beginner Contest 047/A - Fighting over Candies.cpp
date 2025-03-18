@@ -4,7 +4,7 @@
 /*      Linkedin : linkedin.com/in/muzakkir-hossain-minhaz      */
 /****************************************************************/
 
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()
@@ -12,24 +12,24 @@ int main()
     int a, b, c;
     cin >> a >> b >> c;
 
-    int maxValue, sum=0;
-    if(a>=b && a>=c)
+    int maxValue, sum = 0;
+    if (a >= b && a >= c)
     {
         maxValue = a;
-        sum = b+c;
+        sum = b + c;
     }
-    else if(b>=a && b>=c)
+    else if (b >= a && b >= c)
     {
         maxValue = b;
-        sum = a+c;
+        sum = a + c;
     }
     else
     {
         maxValue = c;
-        sum = a+b;
+        sum = a + b;
     }
 
-    cout << ((maxValue==sum) ? "Yes" : "No") << endl;
+    cout << ((maxValue == sum) ? "Yes" : "No") << endl;
 
     return 0;
 }

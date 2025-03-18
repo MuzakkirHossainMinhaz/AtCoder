@@ -4,7 +4,7 @@
 /*      Linkedin : linkedin.com/in/muzakkir-hossain-minhaz      */
 /****************************************************************/
 
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()
@@ -12,13 +12,13 @@ int main()
     string O, E;
     cin >> O >> E;
 
-    int len = O.size()>E.size() ? O.size() : E.size();
+    int len = O.size() > E.size() ? O.size() : E.size();
 
-    for(int i=0; i<len; i++)
+    for (int i = 0; i < len; i++)
     {
-        if(O[i]>='a' && O[i]<='z')
+        if (O[i] >= 'a' && O[i] <= 'z')
             cout << O[i];
-        if(E[i]>='a' && E[i]<='z')
+        if (E[i] >= 'a' && E[i] <= 'z')
             cout << E[i];
     }
 

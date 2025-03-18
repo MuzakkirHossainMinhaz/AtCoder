@@ -4,7 +4,7 @@
 /*      Linkedin : linkedin.com/in/muzakkir-hossain-minhaz      */
 /****************************************************************/
 
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()
@@ -14,17 +14,17 @@ int main()
 
     int a[26] = {0};
 
-    for(int i=0; i<s.size(); i++)
+    for (int i = 0; i < s.size(); i++)
     {
-        int x = s[i]-'a';
+        int x = s[i] - 'a';
         a[x]++;
     }
 
-    for(int i=0; i<26; i++)
+    for (int i = 0; i < 26; i++)
     {
-        if(a[i]==0)
+        if (a[i] == 0)
         {
-            printf("%c\n", 'a'+i);
+            printf("%c\n", 'a' + i);
             return 0;
         }
     }

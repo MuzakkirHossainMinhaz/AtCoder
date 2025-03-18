@@ -17,11 +17,10 @@ int main()
     int l, r;
     cin >> l >> r;
 
-    for(int i=l-1; i<r; i++)
+    for (int i = l - 1; i < r; i++)
         cout << str[i];
 
     cout << endl;
 
     return 0;
 }
-

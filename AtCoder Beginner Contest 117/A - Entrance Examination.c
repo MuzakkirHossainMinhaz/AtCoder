@@ -4,15 +4,13 @@
 /*      Linkedin : linkedin.com/in/muzakkir-hossain-minhaz      */
 /****************************************************************/
 
-#include <bits/stdc++.h>
-using namespace std;
+#include <stdio.h>
 
 int main()
 {
-    int a, b, h;
-    cin >> a >> b >> h;
-
-    cout << (a + b) * h / 2 << endl;
+    float t, x;
+    scanf("%f%f", &t, &x);
+    printf("%f\n", t / x);
 
     return 0;
 }

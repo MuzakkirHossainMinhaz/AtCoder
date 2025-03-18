@@ -4,7 +4,7 @@
 /*      Linkedin : linkedin.com/in/muzakkir-hossain-minhaz      */
 /****************************************************************/
 
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()
@@ -14,13 +14,13 @@ int main()
 
     scanf("%d %c %d", &A, &op, &B);
 
-    switch(op)
+    switch (op)
     {
     case '+':
-        cout << A+B << endl;
+        cout << A + B << endl;
         break;
     case '-':
-        cout << A-B << endl;
+        cout << A - B << endl;
         break;
     }
 
